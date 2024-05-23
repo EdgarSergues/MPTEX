@@ -1,0 +1,58 @@
+import xarray as xr
+# let's store this as a dict
+# Creating the dictionary from the provided data
+
+DAC_inputs = {
+    "Electricity": {
+        2020: 0.345,
+        2025: 0.319,
+        2030: 0.311,
+        2035: 0.307,
+        2040: 0.304,
+        2045: 0.301,
+        2050: 0.299
+    },
+    "Heat": {
+        2020: 6.28,
+        2025: 5.81,
+        2030: 5.67,
+        2035: 5.58,
+        2040: 5.53,
+        2045: 5.48,
+        2050: 5.44
+    },
+
+}
+DAC_inputs
+
+
+
+# Convert dictionaries into an xarray Dataset
+years = list(DAC_inputs['Electricity'].keys())
+electricity_values = list(DAC_inputs['Electricity'].values())
+heat_values = list(DAC_inputs['Heat'].values())
+
+dataset = xr.Dataset({
+    'Electricity': ('Year', electricity_values),
+    'Heat': ('Year', heat_values),
+}, coords={'Year': years})
+
+print(dataset)
+
+
+
+def get_values_for_year(dataset, year):
+    # Perform interpolation for the specified year
+    interpolated_values = dataset.interp(Year=year)
+    
+    # Extract values for 'Electricity' and 'Heat'
+    electricity = interpolated_values['Electricity'].values.item()
+    heat = interpolated_values['Heat'].values.item()
+    
+    # Output results
+    print(f"Year: {year}")
+    print(f"Electricity: {electricity}")
+    print(f"Heat: {heat}")
+    return electricity, heat
+# Example usage:
+get_values_for_year(dataset, 2048)
