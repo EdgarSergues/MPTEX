@@ -27,7 +27,7 @@ extensions = [
     # Markdown support
     'myst_parser',
     # API documentation support
-    'autoapi',
+    #'autoapi',
     # responsive web component support
     'sphinx_design',
     # copy button on code blocks
@@ -100,9 +100,7 @@ autoapi_member_order = 'groupwise'
 autoapi_root = 'content/api'
 autoapi_keep_files = False
 
-autoapi_dirs = [
-    '../MPTEX',
-]
+autoapi_dirs = []
 
 autoapi_ignore = [
     '*/data/*',
