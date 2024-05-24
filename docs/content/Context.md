@@ -9,17 +9,21 @@ This new package would support the user to understand the environmental impact o
 
 
 **Direct Air Capture (DAC) system inventory**
-
-
+\begin{gather*}
 DAC is a product system (or technology) that takes in atmospheric air as an input and produces CO_{2} as an output. The system typically uses CO_{2}-absorbing chemicals, energy (heat), and electricity to remove CO_{2} from the atmosphere. 
+\end{gather*}
 
-**Generating future Life Cycle Inventory (LCI):**\\
+**Generating future Life Cycle Inventory (LCI):**
 
 The prospective system inventory of the DAC system was estimated in two steps:
 1. Energy consumption projection: We projected the expected reduction in energy and electricity consumption in the DAC system using technology learning curves. The learning rates were obtained from the peer-reviewed literature, and in our case, we used a learning rate of 2.5%.
 
 2. PV efficiency projection: We estimated the changes in the efficiency of PV based on the lifetime solar irradiation observed across geographies. 
 
-:::{figure} 
-![dac](img/pLCI_PV-DAC.png)
-:::
+
+```{image} img/pLCI_PV-DAC.png
+:alt: dac
+:class: bg-primary
+:width: 300px
+:align: center
+```
