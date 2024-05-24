@@ -17,5 +17,7 @@ The prospective system inventory of the DAC system was estimated in two steps:
 
 2. PV efficiency projection (spatial): The annual solar irradiation over global locations varies significantly, and this can affect the total energy (kWh) that can be produced from a single PV panel. Since the total lifetime energy production from PV panels influences the per kWh emissions, it is important to understand how the efficiencies can change with locations and how they can be incorporated into the future LCI. Therefore, in our model, we estimated the changes in the efficiency of PV based on the lifetime solar irradiation observed across spatial locations using EU JRC datasets from Photovoltaic Geographical Information System (PVGIS). 
 
+:PVGIS: <https://re.jrc.ec.europa.eu/pvg_tools/en/>
 
+\\
 ![dac](_images/pLCI_PV-DAC.png)
