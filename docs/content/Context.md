@@ -1,5 +1,5 @@
-# Context of Temporalis
+# Context of MPTEX 
 
-Temporalis module allows the user to determine the period of time during which each emission occurs and its temporal distribution. BUT the user needs to identify herself the most relevant exchanges to temporalise.
-This new package would first calculate the static score and then allow the user to temporalise exchanges from the most contributing to the least contributing (and stop when a cutoff criterion is reached).
-This would be relevant for products with long lifetimes (e.g., hydropower dams) and useful for example for carbon budget planification.
+MPTEX allows the user to calculate the prospective life cycle inventory of direct air capture (DAC) systems for a specific year, between 2020 and 2050.
+
+This new package would first calculate the amount of emergy produce via PV panels in a certain location, according to the .... Then, this
