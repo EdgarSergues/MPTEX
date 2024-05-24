@@ -5,13 +5,13 @@ MPTEX allows the user to calculate the prospective life cycle inventory of direc
 This new package would support the user to understand the environmental impact of a prospective DAC system in a temporal and spatial condition. First, it calculates the amount of energy produce via PV panels in a certain location, according to the .... Then, this is adapted within the grid mix in the selected location in the speifcic year. Next, the user will get ...
 
 **PV inventory**
-
+(UNDER DEVELOPMENT)
 
 
 **Direct Air Capture (DAC) system inventory**
-\begin{gather*}
-DAC is a product system (or technology) that takes in atmospheric air as an input and produces CO_{2} as an output. The system typically uses CO_{2}-absorbing chemicals, energy (heat), and electricity to remove CO_{2} from the atmosphere. 
-\end{gather*}
+
+DAC is a product system (or technology) that takes in atmospheric air as an input and produces CO{sub}`2` as an output. The system typically uses CO{sub}`2`-absorbing chemicals, energy (heat), and electricity to remove CO{sub}`2` from the atmosphere. 
+
 
 **Generating future Life Cycle Inventory (LCI):**
 
@@ -21,9 +21,4 @@ The prospective system inventory of the DAC system was estimated in two steps:
 2. PV efficiency projection: We estimated the changes in the efficiency of PV based on the lifetime solar irradiation observed across geographies. 
 
 
-```{image} img/pLCI_PV-DAC.png
-:alt: dac
-:class: bg-primary
-:width: 300px
-:align: center
-```
+(img/pLCI_PV-DAC.png)
