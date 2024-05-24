@@ -2,10 +2,10 @@ Short name,Formal name,Latitude,Longitude
 RUS,Russia,61.524,105.3188
 CHN,China,35.8617,104.1954
 RSAF,Rest of Sub-Saharan Africa,1.2921,36.8219
-MEX,Mexico,23.6345,102.5528
+MEX,Mexico,23.6345,-102.5528
 INDO,Indonesia,0.7893,113.9213
 JAP,Japan,36.2048,138.2529
-RSAM,Rest of South America,16.5,68.15
+RSAM,Rest of South America,-11.1383,-64.594
 WAF,West Africa,13.5317,2.4604
 UKR,Ukraine,48.3794,31.1656
 INDI,India,20.5937,78.9629
@@ -16,12 +16,12 @@ KOR,Korea,35.9078,127.7669
 EAF,East Africa,1.9577,37.2972
 STAN,Central Asia,45.4507,68.8319
 CEU,Central Europe,50.3785,14.9706
-RCAM,Rest of Central America,12.1364,86.2514
-CAN,Canada,56.1304,106.3468
+RCAM,Rest of Central America,21.5218,-77.7812
+CAN,Canada,56.1304,-106.3468
 RSAS,Rest of South Asia,27.7172,85.324
 SAF,South Africa,30.5595,22.9375
-BRA,Brazil,14.235,51.9253
+BRA,Brazil,-6.930238,-51.9253
 TUR,Turkey,38.9637,35.2433
-OCE,Oceania,22.7359,140.0188
+OCE,Oceania,-25.2744,133.7751
 USA,United States,37.0902,-95.7129
 SEAS,Southeast Asia,2.218,115.6628
