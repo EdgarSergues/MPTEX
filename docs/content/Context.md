@@ -21,4 +21,4 @@ The prospective system inventory of the DAC system was estimated in two steps:
 2. PV efficiency projection: We estimated the changes in the efficiency of PV based on the lifetime solar irradiation observed across geographies. 
 
 
-(img/pLCI_PV-DAC.png)
+![dac](img/pLCI_PV-DAC.png)
